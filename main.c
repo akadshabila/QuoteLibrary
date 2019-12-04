@@ -5,10 +5,10 @@ int main(){
   //reading user input to determine the type of quote to send out
   char userInput;
   printf("Type 'F' or 'I' to receive a funny or inspirational quote, respectively: \n");
-  scanf("%c", *userInput);
+  scanf("%c", userInput);
   
   char* theQuote;
-  switch(userInput){
+  switch(*userInput){
     case 'F' :
       //fetch a funny quote and save it to theQuote
       printf("funny\n");
