@@ -6,5 +6,5 @@ int main(){
   printf("Type 'funny' or 'inspirational' to receive a funny or inspirational quote, respectively: \n");
   scanf("%s", userInput);
   
-  printf(userInput);
+  printf("%s", userInput);
 }
