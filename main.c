@@ -14,7 +14,7 @@ char* chooseQuote(char* filename){
     if(currentLine == r){
       //if the current line is the line we want to read, save each letter to aQuote until newline is hit
       if(c != '\n'){
-        aQuote[i] = c
+        aQuote[i] = c;
       }
       else{
         currentLine++;
