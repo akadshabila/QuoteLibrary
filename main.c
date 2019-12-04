@@ -9,10 +9,10 @@ int main(){
   
   char* theQuote;
   switch(userInput){
-    case 'funny' :
+    case "funny" :
       //fetch a funny quote and save it to theQuote
       printf("funny");
-    case 'inspirational' :
+    case "inspirational" :
       //fetch an inspirational quote and save it to theQuote
       printf("inspirational");
   }
