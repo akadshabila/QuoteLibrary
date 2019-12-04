@@ -3,7 +3,7 @@
 
 int main(){
   //reading user input to determine the type of quote to send out
-  char userInput;
+  char* userInput;
   printf("Type 'f' or 'i' to receive a funny or inspirational quote, respectively: \n");
   scanf("%c", userInput);
   
