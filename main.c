@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//* TODO - Message people on basecamp for more George quotes!
+
 char* chooseQuote(char* filename){
   char aQuote[100];
+  //TODO - Don't hard-code how many lines are in the text files
   int r = rand() % 20; //random number between 0 and 19, there are 20 lines for each txt file
   int currentLine = 0;
   int i;
