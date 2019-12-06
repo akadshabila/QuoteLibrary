@@ -5,14 +5,25 @@
 
 char* chooseQuote(char* filename){
   char aQuote[100];
-  //TODO - Don't hard-code how many lines are in the text files
-  int r = rand() % 20; //random number between 0 and 19, there are 20 lines for each txt file
   int currentLine = 0;
+  int lines = 0;
   int i;
   char c;
+  
+  //Determines the number of lines in the text file
   FILE *fp = fopen(filename, "r");
+  for(c = getc(fp); c != EOF; c = getc(fp)){
+		if(c == '\n'){
+			lines++;
+		}
+  }
+  fclose(fp);
+  
+  //Choose which quote will be used
+  int r = rand() % lines; //random number between 0 and number of lines
   
   //go through the text file for r lines, then save the rth line to aQuote
+  FILE *fp2 = fopen(filename, "r");
   for(c = getc(fp); c != EOF; c = getc(fp)){
     if(currentLine == r){
       //if the current line is the line we want to read, save each letter to aQuote until newline is hit
@@ -28,6 +39,8 @@ char* chooseQuote(char* filename){
       currentLine++;
     }
   }
+  fclose(fp2);
+  
   
   return aQuote;
 }
