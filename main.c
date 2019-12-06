@@ -7,7 +7,7 @@ char* chooseQuote(char* filename){
   char aQuote[100];
   int currentLine = 0;
   int lines = 0;
-  int i;
+  int i = 0;
   char c;
   
   //Determines the number of lines in the text file
@@ -24,11 +24,12 @@ char* chooseQuote(char* filename){
   
   //go through the text file for r lines, then save the rth line to aQuote
   FILE *fp2 = fopen(filename, "r");
-  for(c = getc(fp); c != EOF; c = getc(fp)){
+  for(c = getc(fp2); c != EOF; c = getc(fp2)){
     if(currentLine == r){
       //if the current line is the line we want to read, save each letter to aQuote until newline is hit
       if(c != '\n'){
         aQuote[i] = c;
+	i++;
       }
       else{
         currentLine++;
