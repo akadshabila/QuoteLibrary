@@ -69,7 +69,7 @@ int main(int argc, char** argv){
         theQuote = chooseQuote("inspirationalQuotes.txt");		    
       default:
         //reading user input to determine the type of quote to send out
-        char *userInput;
+        char userInput;
         printf("Type 'F' or 'I' or 'G' to receive a funny or inspirational or George quote, respectively: \n");
         scanf("%c", &userInput);
   
