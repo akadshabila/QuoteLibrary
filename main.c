@@ -77,6 +77,6 @@ int main(){
   
   
   //print the retreived quote to user
-  printf("\n\n\n\n%s\n\n", theQuote);
+  printf("\n\n%s\n\n", theQuote);
   exit(0);
 }
