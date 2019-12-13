@@ -66,9 +66,11 @@ int main(int argc, char** argv){
       case 'F':
         //fetch a funny quote and save it to theQuote
         theQuote = chooseQuote("funnyQuotes.txt");
+        break;
       case 'I':
 	//fetch an inspirational quote and save it to theQuote
-        theQuote = chooseQuote("inspirationalQuotes.txt");		    
+        theQuote = chooseQuote("inspirationalQuotes.txt"); 
+        break;
       default:
         //reading user input to determine the type of quote to send out
         ; //empty line
