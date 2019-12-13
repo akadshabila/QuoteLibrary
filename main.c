@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 char aQuote[100];
 
@@ -20,6 +21,7 @@ char* chooseQuote(char* filename){
   fclose(fp);
   
   //Choose which quote will be used
+  srand(time(0));
   int r = rand() % lines; //random number between 0 and number of lines
   
   //go through the text file for r lines, then save the rth line to aQuote
