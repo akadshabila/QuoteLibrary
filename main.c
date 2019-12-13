@@ -53,8 +53,9 @@ char* chooseQuote(char* filename){
 
 int main(int argc, char** argv){
   //getopt implementation: 
+  char* theQuote;
   int opt;
-  while((opt = getopt(argc, argv, "o:j:")) != -1){
+  while((opt = getopt(argc, argv, "GFI:")) != -1){
     switch(opt){
       case 'G':
         //fetch a george quote and save it to theQuote
@@ -74,7 +75,6 @@ int main(int argc, char** argv){
   
   
         //Determining which quote to give user & assigning it to theQuote
-        char* theQuote;
         switch(userInput){
           case 'F' :
             //fetch a funny quote and save it to theQuote
