@@ -1,3 +1,94 @@
-Of all things I lost in life, I miss my mind the most
-Programming is best done with a gin and tonic in hand
-The Saint Ignatian values include suffering and guilt //roughly remembered
+Of all things I lost in life, I miss my mind the most.
+Programming is best done with a gin and tonic in hand.
+The Saint Ignatian values include suffering and guilt.
+If you don't inhale what's the point?
+How's everyone doing? Not doing well? Don't worry about it.
+I cooked italian last night so I really understand family style.
+Torture will be administered at the utmost degree of love.
+Midterms and finals are relics of the Industrial Revolution.
+[One] consequence of the Industrial Revolution is that the education system has been broken for hundreds of years... don't learn how to turn a screw, invent a new one.
+[Don't cheat on tests, don't be academically dishonest] and don't let the troops down.
+C is the new F.
+The path to knowledge is a recursive concept.
+Bring your laptop to class; Always have code to show; And cite your source, even from Stack Overflow.
+This is the class that will make you a master at computer programming.
+Make it work first then look good.
+I like people to spend all their time on my homework, but you can spend 70% of your time on my homework.
+I'm not looking for perfection, I'm looking for excellence, but I will settle for very good.
+I am the book.
+If you know operating systems you don't need drugs; they are your drugs.
+Starter code is like my daughters toys; they're squishy, soft, and they make you feel good.
+I'm here to create problem solvers & world leaders... if I'm not doing that I have no business to be here. Replace me with five monkeys; they could teach you C.
+The Jesuit pedagogy equivalent for this class is found through pointers.
+This class is going to get harder... it's for your own good.
+We have been failed by our predecessors.
+Git is a form of thought - it's like John F. Kennedy: we choose to go to the moon... We choose to program...
+I know how to write bad code in many languages... starting with C.
+The New World is unforgiving.
+You have all sinned, but I am going to make a blanket blessing right now... your Grades may still suffer, but I forgive you.
+It is true that a diamond is forever, but so is recursion.
+Has anyone been in my class long enough to know that I'm writing a book?
+Look at my code... I use word!!! That's what writers do.
+An extreme act of courage; not only did I visit the Russian hacker's website, but I downloaded it and uploaded it too. I risked my life.
+I feel like I'm a happier person because I use the command line.
+I REFUSE to give you a zero... isn't that powerful?
+Most of us spend our lives in the wandering stage [of life]... our ultimate goal is enlightenment.
+Sure, you can search for something... but if you GREP for it, you are high society.
+Genocide? That's not cool.
+I feel like I'm at a chapel giving a sermon.
+Preparation happens in the mind.
+I almost have a PhD in this subject (Adversity).
+Systems is about learning to cope with lots of pain and suffering over time.
+You can find God in the kernel of Linux.
+I've already seen the worst of everything in life... through C.
+Nothing in the world is so important that you have to stop the world for it. Unless it's like a bombing from World War 2.
+I teach my students how to do this correctly... So I should do this correctly.
+I used to have a huge interest in earthquakes, but we do not have time for that right now.
+One thing I want to teach you in life is how to do something cool. In life we spend all our time trying to make others happy, so here let's do something cool for ourselves.
+The great thing about having all these plans is that I will fail at all of them (and that's a good thing).
+You may ask, 'What did I do to deserve this'. Nothing, I was just being nice.
+This is cool stuff, it would seem a lot cooler if the room weren't so hot.
+The room may not be cool... but pthreads are.
+My dog [a Shih Tzu] is the laziest known life form in my life today. He got so lazy we had to move his bed closer to the door so he could do his duty and protect us.
+Don't you all love it? You don't. The reason we have homework is to make you love it.
+I've seen relationships get broken up over my projects in my class. Threads are detrimental to relationship health.
+I like standing at this podium, it's like I am reading from scripture, although I only have my phone here.
+Because we were on a fairly high floor, I wanted to jump out the window (when Nick was reading the book for COMP 170).
+Using git is not a substitute for actual human connection.
+There is a certain elegance in C that you can't quite explain.
+My definition of laziness is always compared to my shih tzu.
+If you don't hear something three times, you don't really learn it.
+First I want to scare the... you know what... out of you, and then I want to empower you.
+Parenting lesson: Don't ever give your kids a flip phone (sad pause) they'll hate you.
+The world is never worse if you try to plant a few flowers along the way and let people walk in the garden.
+We need a John F Kennedy moment; even though something is hard doesn't mean we can't do it.
+Now I know you can code something in C... You still can't code it well, but I know you can all code it.
+Everything will be smart in the future, except you.
+I am an eternal optimist.
+My hope is that this course teaches you about the value of research, not just operating systems.
+I started levitating because I started teaching about sorting to my 170 students.
+Sometimes people try and impress me with grand designs, but I prefer clean... Less is more.
+We are not doing what we call a... PhD dissertation here.
+When Google Docs came out I really hated it... now I love it. 94% of the features in Word were never being used. Overcomplicating does not equal being useful.
+Why do we spend all our time trying to be perfect? Because we need 100% in every class... Except we don't.
+Use methods to avoid repeating yourself. 
+Especially around the holiday season, I am very generous.
+People who do very well in my class don't last very long in the job market. They go straight into employment.
+I really don't think homework is important anymore... I think it's obsolete.
+I don't want to just see people becoming good at homework and tests, I want them to succeed in the real world.
+What kind of students are we trying to create here? Are we trying to create a student that follows the rules?
+We do C in here so that we really suffer... It's like the biblical suffering: suffer, die, and resurrect. 
+Success does not come in anything until you have your first success.
+I've come to come to the peaceful *sad scoff* existence that I'm not going to master every language and system out there.
+If you're ever near anything with the word NASA on it - it's cool!
+My time machine doesn't work yet... but we're gonna be traveling to other dimensions so forget about time.
+Save the environment, don't make a powerpoint - it wastes space in the cloud.
+I don't get impressed by fancy words.
+I was listening to Megadeth the other day, it sounded like an SAT prep class. Metal bands are actually known for using really big words.
+Reflect on what you learned over the semester: what did you learn about systems other than it's really hard!
+I'm already the most out-of-the-box thinker because when I wake up in the morning I am already outside of the box.
+To get an F in my class you must be like John F Kennedy going to the moon: "[I] choose to get an F".
+Ask not what your professor can do for you, but ask what you can do for your professor.
+I want you to think about John F Kennedy and going to the moon.
+We can't even get [to the moon] now, people say we are getting smarter - I think we are getting dumber, as a collective society.
+Saturday Finals? I'm sorry Loyola, Copernicus called, you are not the center of the Universe.
