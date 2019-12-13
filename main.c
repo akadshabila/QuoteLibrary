@@ -77,6 +77,7 @@ int main(){
   
   
   //print the retreived quote to user
-  printf("\n\n%s\n\n", theQuote);
+  printf("A quote has been professionally chosen for you:");
+  printf("\n\n%s\n\n\n", theQuote);
   exit(0);
 }
