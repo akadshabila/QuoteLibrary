@@ -54,7 +54,8 @@ char* chooseQuote(char* filename){
 
 
 int main(int argc, char** argv){
-  //getopt implementation: 
+  //getopt implementation
+  ; //empty line
   char* theQuote;
   int opt;
   while((opt = getopt(argc, argv, "GFI:")) != -1){
