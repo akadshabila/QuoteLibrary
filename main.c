@@ -90,6 +90,7 @@ int main(int argc, char** argv){
             break;
           default :
             printf("Invalid request\n");
+	}
     }
   }
   
