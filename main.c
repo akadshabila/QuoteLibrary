@@ -57,7 +57,7 @@ int main(int argc, char** argv){
   //getopt implementation
   char* theQuote;
   int opt;
-  while((opt = getopt(argc, argv, "GFI:")) != -1){
+  while((opt = getopt(argc, argv, "GFI")) != -1){
     switch(opt){
       case 'G':
         //fetch a george quote and save it to theQuote
