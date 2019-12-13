@@ -51,30 +51,46 @@ char* chooseQuote(char* filename){
 
 
 
-int main(){
-  //reading user input to determine the type of quote to send out
-  char userInput;
-  printf("Type 'F' or 'I' or 'G' to receive a funny or inspirational or George quote, respectively: \n");
-  scanf("%c", &userInput);
+int main(int argc, char** argv){
+  //getopt implementation: 
+  int opt;
+  while((opt = getopt(argc, argv, "o:j:")) != -1){
+    switch(opt){
+      case 'G':
+        //fetch a george quote and save it to theQuote
+        theQuote = chooseQuote("georgeQuotes.txt");
+        break;
+      case 'F':
+        //fetch a funny quote and save it to theQuote
+        theQuote = chooseQuote("funnyQuotes.txt");
+      case 'I':
+	//fetch an inspirational quote and save it to theQuote
+        theQuote = chooseQuote("inspirationalQuotes.txt");		    
+      default:
+        //reading user input to determine the type of quote to send out
+        char userInput;
+        printf("Type 'F' or 'I' or 'G' to receive a funny or inspirational or George quote, respectively: \n");
+        scanf("%c", &userInput);
   
   
-  //Determining which quote to give user & assigning it to theQuote
-  char* theQuote;
-  switch(userInput){
-    case 'F' :
-      //fetch a funny quote and save it to theQuote
-      theQuote = chooseQuote("funnyQuotes.txt");
-      break;
-    case 'I' :
-      //fetch an inspirational quote and save it to theQuote
-      theQuote = chooseQuote("inspirationalQuotes.txt");
-      break;
-    case 'G' :
-      //fetch an inspirational quote and save it to theQuote
-      theQuote = chooseQuote("georgeQuotes.txt");
-      break;
-    default :
-      printf("Invalid request\n");
+        //Determining which quote to give user & assigning it to theQuote
+        char* theQuote;
+        switch(userInput){
+          case 'F' :
+            //fetch a funny quote and save it to theQuote
+            theQuote = chooseQuote("funnyQuotes.txt");
+            break;
+          case 'I' :
+            //fetch an inspirational quote and save it to theQuote
+            theQuote = chooseQuote("inspirationalQuotes.txt");
+            break;
+          case 'G' :
+            //fetch an inspirational quote and save it to theQuote
+            theQuote = chooseQuote("georgeQuotes.txt");
+            break;
+          default :
+            printf("Invalid request\n");
+    }
   }
   
   
