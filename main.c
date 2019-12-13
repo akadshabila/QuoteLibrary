@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//* TODO - Message people on basecamp for more George quotes!
+char aQuote[100];
+
 
 char* chooseQuote(char* filename){
-  char aQuote[100];
   int currentLine = 0;
   int lines = 0;
   int i = 0;
@@ -77,5 +77,6 @@ int main(){
   
   
   //print the retreived quote to user
-  printf("%s", theQuote);
+  printf("\n\n\n\n%s\n\n", theQuote);
+  exit(0);
 }
